@@ -1,0 +1,11 @@
+name: Frist Workspace
+on:
+  push:
+   branches:
+     - main
+jobs:
+  frist-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello world
+        run: echo "Hello World"
